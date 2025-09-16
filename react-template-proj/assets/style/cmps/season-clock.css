@@ -1,0 +1,25 @@
+.season-clock-container{
+      margin: auto;
+      display: grid;
+      place-items: center;
+      width: 300px;
+      cursor: pointer;
+      transition: all .4s ease-in-out;
+}
+.season-clock-container:hover{
+      transform: scale(1.1);
+}
+.dark{
+      background-color: black;
+      color: white;
+}
+.light{
+      background-color: white;
+      color: black;
+}
+.timer{
+      padding: 1em;
+      margin-bottom: 30px;
+      border: 1px solid white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
