@@ -10,4 +10,5 @@
 /* Components */
 @import 'cmps/app-header.css';
 @import 'cmps/table.css';
-@import 'cmps/season-clock.css'
+@import 'cmps/season-clock.css';
+@import 'cmps/count-down.css'

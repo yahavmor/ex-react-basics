@@ -1,0 +1,7 @@
+.counter{
+      width: max-content;
+      margin: auto;
+      padding: 1em;
+      border: 1px solid black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
