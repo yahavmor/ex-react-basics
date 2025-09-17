@@ -1,3 +1,9 @@
+
+import {storageService} from "./async-storage.service.js";
+const STORAGE_KEY = 'watchers';
+
+
+
 export const utilService = {
     makeId,
     makeLorem,
@@ -6,8 +12,11 @@ export const utilService = {
     saveToStorage,
     padNum,
     getDayName,
-    getMonthName
+    getMonthName,
+    remove,
+    STORAGE_KEY
 }
+
 
 function makeId(length = 6) {
     var txt = ''
@@ -59,4 +68,7 @@ function getMonthName(date) {
         'July', 'August', 'September', 'October', 'November', 'December'
     ]
     return monthNames[date.getMonth()]
+}
+function remove(watcherId) {
+    return storageService.remove(STORAGE_KEY,watcherId)
 }

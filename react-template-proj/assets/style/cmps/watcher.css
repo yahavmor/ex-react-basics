@@ -1,0 +1,95 @@
+.watchers {
+  width: max-content;
+  margin: auto;
+  padding: 2em;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: grid;
+  place-items: center;
+  gap: 3em;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.watchers header {
+  font-weight: bold;
+  font-size: 32px;
+  color: #333;
+  text-align: center;
+}
+
+.watchers-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  max-width: 1200px; 
+}
+
+
+
+.watcher-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.watcher-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #222;
+}
+
+.btn-actions {
+  display: flex;
+  gap: 1rem;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  justify-content: center;
+}
+
+.btn-actions button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0078d4;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-actions button:hover {
+  background-color: #005fa3;
+}
+
+.watcher-modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  transform: translate(-50%, -50%);
+  background-color: #ffe0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
