@@ -1,7 +1,6 @@
 import { CountDown } from './cmps/count-down.jsx'
 import { App } from './cmps/root-cmp.jsx'
 import { SeasonClock } from './cmps/season-clock-cmp.jsx'
-import { SelectedWatcher } from './cmps/selectedWatcher-cmp.jsx'
 import { Table } from './cmps/table-cmp.jsx'
 import { Watchers } from './cmps/watchers-cmp.jsx'
 
@@ -12,7 +11,6 @@ const root = ReactDOM.createRoot(elContainer)
 root.render(
       <div>
         <Watchers />
-        <SelectedWatcher />
       </div>
 )
     
