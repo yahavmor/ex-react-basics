@@ -12,5 +12,6 @@
 @import 'cmps/table.css';
 @import 'cmps/season-clock.css';
 @import 'cmps/count-down.css';
-@import 'cmps/watcher.css'
+@import 'cmps/watcher.css';
+@import 'cmps/mouse-monitor.css';
 
